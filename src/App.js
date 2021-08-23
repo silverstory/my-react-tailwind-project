@@ -94,6 +94,15 @@ export default function App() {
           />
         </Grid>
       </MuiPickersUtilsProvider>
+      <div className="bg-gray-100">
+        <div className="px-8 py-12">
+          <img  className="h-10" src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss-from-zero-to-production/98b52c61259c732226c2ec0207ba2246e67a34e6/02-the-utility-first-workflow/img/logo.svg" alt="Workcation" />
+          <img className="mt-6 rounded-lg shadow-xl" src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss-from-zero-to-production/main/02-the-utility-first-workflow/img/beach-work.jpg" alt="Woman on beach" />
+          <h1  className="mt-6 text-2xl font-bold text-gray-900">You can work from anywhere.
+            <span className="text-indigo-500">Take advantage of it.</span>
+          </h1>
+        </div>
+      </div>
     </div>
   )
 }
